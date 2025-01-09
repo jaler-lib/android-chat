@@ -37,8 +37,8 @@ public class Config {
     public static String[][] ICE_SERVERS/*请仔细阅读上面的注释*/ = new String[][]{
         // 如果是高级版，请删除掉下面的配置项目，保持ICE_SERVERS为空数组就行。
         // 数组元素定义
-        /*{"turn server uri", "userName", "password"}*/
-        {"turn:turn.wildfirechat.net:3478", "wfchat", "wfchat123"}
+        /*{"turn server uri", "userName", "password"} {"turn:turn.wildfirechat.net:3478", "wfchat", "wfchat123"}*/
+        {"turn:14.215.128.168:3478", "admin", "admin@123"}
     };
 
     //文件传输助手用户ID，服务器有个默认文件助手的机器人，如果修改它的ID，需要客户端和服务器数据库同步修改
