@@ -15,8 +15,8 @@ public class Config {
      * <br>
      * <br>
      */
-    public static String IM_SERVER_HOST = "10.23.0.90";
-
+    //public static String IM_SERVER_HOST = "10.23.0.90";
+    public static String IM_SERVER_HOST = "test.im.adenfin.com";
     // 注意APP_SERVER_ADDRESS已从kit中移除，移动到了AppService.java中
     //public static String APP_SERVER_ADDRESS = "http://10.23.0.90:8888";
 
